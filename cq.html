@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>AbelBalate</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet"> 
+    
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid position-relative d-flex p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-dark position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Sidebar Start -->
+        <div class="sidebar pe-4 pb-3">
+            <nav class="navbar bg-secondary navbar-dark">
+                <a href="index.html" class="navbar-brand mx-4 mb-3">
+                    <h3 class="text-primary">WEB JOURNAL</h3>
+                </a>
+                <div class="d-flex align-items-center ms-4 mb-4">
+                    <div class="position-relative">
+                        <img class="rounded-circle" src="img/abel.jpg" alt="" style="width: 40px; height: 40px;">
+                        <div class="bg-success rounded-circle border border-2 border-white position-absolute end-0 bottom-0 p-1"></div>
+                    </div>
+                    <div class="ms-3">
+                        <h6 class="mb-0">Abel Balate</h6>
+                        <span>Student</span>
+                    </div>
+                </div>
+                <div class="navbar-nav w-100">
+                    <a href="index.html" class="nav-item nav-link">Profile</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Topics</a>
+                        <div class="dropdown-menu bg-transparent border-0">
+                            <a href="ai.html" class="dropdown-item">AI</a>
+                            <a href="iot.html" class="dropdown-item">IOT</a>
+                            <a href="ar.html" class="dropdown-item">AR</a>
+                            <a href="ds.html" class="dropdown-item">Data Science</a>
+                            <a href="nano.html" class="dropdown-item">Nanotechnology...</a>
+                            <a href="cq.html" class="dropdown-item active">Cloud Quantom...</a>
+                            <a href="es.html" class="dropdown-item">Embedded System...</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Sidebar End -->
+
+
+        <!-- Content Start -->
+        <div class="content">
+            <!-- Navbar Start -->
+            <nav class="navbar navbar-expand bg-secondary navbar-dark sticky-top px-4 py-0">
+                <a href="index.html" class="navbar-brand d-flex d-lg-none me-4">
+                    <h2 class="text-primary mb-0"><i class="fa fa-user-edit"></i></h2>
+                </a>
+                <a href="#" class="sidebar-toggler flex-shrink-0">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <div class="navbar-nav align-items-center ms-auto">
+                    <div class="nav-item dropdown">
+                        
+                        
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                            <img class="rounded-circle me-lg-2" src="img/abel.jpg" alt="" style="width: 40px; height: 40px;">
+                            <span class="d-none d-lg-inline-flex">Abel Balate</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
+                            <a href="cv.html" class="dropdown-item">My Profile</a>
+                           
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- Navbar End -->
+                    <section class="ai">
+                        <div class="aisub" >
+                            <img class="aipic" src="img/cloud_computing.png" alt="">
+                            <h2 class="titlesatopic">Cloud Computing</h2>
+                        </div>
+                            <div class="aisub" >
+                                <p class="aidef">Cloud computing enables remote access, primarily through the Internet, to shared resources; 
+                                    (e.g., networks, servers, storage, applications, and services) typically being maintained by a 
+                                    third-party (the cloud provider). Resources are often shared with other cloud provider customers.</p>
+                            </div>
+                    </section>
+                            <section style="background-color: #6C7293;" class="ai">
+                                <div class="aisub" >
+                                    <img class="aipic" src="img/Quantum Computing.jpg" alt="">
+                                    <h2 class="titlesatopic">Quantum Computing</h2>
+                                </div>
+                                    <div class="aisub" >
+                                        <p style="color: #191C24;" class="aidef">Quantum computing is a rapidly-emerging technology that
+                                             harnesses the laws of quantum mechanics to solve problems too 
+                                             complex for classical computers. </p>
+                                    </div>
+                            </section>
+                <section class="ai">
+                    <div class="aisub" >
+                        <img class="aipic" src="img/autonomic_computing.jpg" alt="">
+                        <h2 class="titlesatopic">Autonomic Computing </h2>
+                    </div>
+                        <div class="aisub" >
+                            <p class="aidef">Autonomic computing is a computer’s ability to manage itself
+                                 automatically through adaptive technologies that further computing capabilities and cut down on the time required by 
+                                computer professionals to resolve system difficulties and other 
+                                maintenance such as software updates.</p>
+                        </div>
+                </section>
+
+                <div class="wordfile">
+                     <pre class="wordfilenahu">
+                        7.4. Cloud and Quantum Computing
+7.4.1. Cloud Computing
+What is cloud computing?
+Cloud computing is on-demand access, via the internet, to computing resources—applications,
+servers (physical servers and virtual servers), data storage, development tools, networking
+capabilities, and more—hosted at a remote data center managed by a cloud services provider
+(or CSP). The CSP makes these resources available for a monthly subscription fee or bills them
+according to usage.
+Compared to traditional on-premises IT, and depending on the cloud services you select, cloud
+computing helps do the following:
+ Lower IT costs: Cloud lets you offload some or most of the costs and effort of
+purchasing, installing, configuring, and managing your own on-premises infrastructure.
+ Improve agility and time-to-value: With the cloud, your organization can start using
+enterprise applications in minutes, instead of waiting weeks or months for IT to respond
+to a request, purchase and configure supporting hardware, and install the software.
+Cloud also lets you empower certain users—specifically developers and data
+scientists—to help themselves to software and support infrastructure.
+ Scale more easily and cost-effectively: Cloud provides elasticity—instead of purchasing
+excess capacity that sits unused during slow periods, you can scale capacity up and
+down in response to spikes and dips in traffic. You can also take advantage of your cloud
+provider’s global network to spread your applications closer to users around the world.
+The term ‘cloud computing’ also refers to the technology that makes cloud work. This includes
+some form of virtualized IT infrastructure—servers, operating system software, networking, and
+other infrastructure that’s abstracted, using special software, so that it can be pooled and
+divided irrespective of physical hardware boundaries. For example, a single hardware server
+can be divided into multiple virtual servers.
+Virtualization enables cloud providers to make maximum use of their data center resources.
+Not surprisingly, many corporations have adopted the cloud delivery model for their on-
+premises infrastructure so they can realize maximum utilization and cost savings vs.
+traditional IT infrastructure and offer the same self-service and agility to their end-users.
+If you use a computer or mobile device at home or at work, you almost certainly use some form
+of cloud computing every day, whether it’s a cloud application like Google Gmail or Salesforce,
+streaming media like Netflix, or cloud file storage like Dropbox. Industry analyst Gartner
+
+recently projected that worldwide end-user public cloud spending will reach nearly USD 600
+billion in 2023 (link resides outside ibm.com).
+
+Cloud computing services
+IaaS (Infrastructure-as-a-Service), PaaS (Platform-as-a-Service) and SaaS (Software-as-a-
+Service) are the three most common models of cloud services, and it’s not uncommon for an
+organization to use all three.
+SaaS (Software-as-a-Service)
+SaaS—also known as cloud-based software or cloud applications—is application software that’s
+hosted in the cloud, and that users access via a web browser, a dedicated desktop client, or an
+API that integrates with a desktop or mobile operating system. In most cases, SaaS users pay a
+monthly or annual subscription fee; some may offer ‘pay-as-you-go’ pricing based on your
+actual usage.
+In addition to the cost savings, time-to-value, and scalability benefits of cloud, SaaS offers the
+following:
+ Automatic upgrades: With SaaS, users take advantage of new features as soon as the
+provider adds them, without having to orchestrate an on-premises upgrade.
+ Protection from data loss: Because SaaS stores application data in the cloud with the
+application, users don’t lose data if their device crashes or breaks.
+SaaS is the primary delivery model for most commercial software today—there are hundreds of
+thousands of SaaS solutions available, from the most focused industry and departmental
+applications, to powerful enterprise software database and AI (artificial intelligence) software.
+PaaS (Platform-as-a-Service)
+PaaS provides software developers with on-demand platform—hardware, complete software
+stack, infrastructure, and even development tools—for running, developing, and managing
+applications without the cost, complexity, and inflexibility of maintaining that platform on-
+premises.
+With PaaS, the cloud provider hosts everything—servers, networks, storage, operating
+system software, middleware, databases—at their data center. Developers simply pick from a
+menu to ‘spin up’ servers and environments they need to run, build, test, deploy, maintain,
+update, and scale applications.
+
+Today, PaaS is often built around containers, a virtualized compute model one step removed
+from virtual servers. Containers virtualize the operating system, enabling developers to package
+the application with only the operating system services it needs to run on any platform, without
+modification and without need for middleware.
+Red Hat OpenShift is a popular PaaS built around Docker containers and Kubernetes, an open
+source container orchestration solution that automates deployment, scaling, load balancing,
+and more for container-based applications.
+IaaS (Infrastructure-as-a-Service)
+IaaS provides on-demand access to fundamental computing resources—physical and virtual
+servers, networking, and storage—over the internet on a pay-as-you-go basis. IaaS enables end
+users to scale and shrink resources on an as-needed basis, reducing the need for high, up-front
+capital expenditures or unnecessary on-premises or ‘owned’ infrastructure and for overbuying
+resources to accommodate periodic spikes in usage.  
+In contrast to SaaS and PaaS (and even newer PaaS computing models such as containers and
+serverless), IaaS provides the users with the lowest-level control of computing resources in the
+cloud.
+IaaS was the most popular cloud computing model when it emerged in the early 2010s. While it
+remains the cloud model for many types of workloads, use of SaaS and PaaS is growing at a
+much faster rate.
+Serverless computing 
+Serverless computing (also called simply serverless) is a cloud computing model that offloads all
+the backend infrastructure management tasks–provisioning, scaling, scheduling, patching—to
+the cloud provider, freeing developers to focus all their time and effort on the code and
+business logic specific to their applications.
+What&#39;s more, serverless runs application code on a per-request basis only and scales the
+supporting infrastructure up and down automatically in response to the number of requests.
+With serverless, customers pay only for the resources being used when the application is
+running—they never pay for idle capacity. 
+FaaS, or Function-as-a-Service, is often confused with serverless computing when, in fact, it&#39;s a
+subset of serverless. FaaS allows developers to execute portions of application code (called
+functions) in response to specific events. Everything besides the code—physical
+hardware, virtual machine operating system, and web server software management—is
+provisioned automatically by the cloud service provider in real time as the code executes and is
+spun back down once the execution completes. Billing starts when execution starts and stops
+when execution stops.
+
+Types of cloud computing
+Public Cloud
+Public cloud is a type of cloud computing in which a cloud service provider makes computing
+resources—anything from SaaS applications, to individual virtual machines (VMs), to bare metal
+computing hardware, to complete enterprise-grade infrastructures and development
+platforms—available to users over the public internet. These resources might be accessible for
+free, or access might be sold according to subscription-based or pay-per-usage pricing models.
+The public cloud provider owns, manages, and assumes all responsibility for the data centers,
+hardware, and infrastructure on which its customers’ workloads run, and it typically provides
+high-bandwidth network connectivity to ensure high performance and rapid access to
+applications and data.
+Public cloud is a multi-tenant environment—the cloud provider&#39;s data center infrastructure is
+shared by all public cloud customers. In the leading public clouds—Amazon Web Services
+(AWS), Google Cloud, IBM Cloud, Microsoft Azure, and Oracle Cloud—those customers can
+number in the millions.
+Many enterprises are moving portions of their computing infrastructure to the public cloud
+because public cloud services are elastic and readily scalable, flexibly adjusting to meet
+changing workload demands. Others are attracted by the promise of greater efficiency and
+fewer wasted resources since customers pay only for what they use. Still others seek to reduce
+spending on hardware and on-premises infrastructures.
+Private cloud
+Private cloud is a cloud environment in which all cloud infrastructure and computing resources
+are dedicated to, and accessible by, one customer only. Private cloud combines many of the
+benefits of cloud computing—including elasticity, scalability, and ease of service delivery—with
+the access control, security, and resource customization of on-premises infrastructure.
+A private cloud is typically hosted on-premises in the customer&#39;s data center. But a private
+cloud can also be hosted on an independent cloud provider’s infrastructure or built on rented
+infrastructure housed in an offsite data center.
+Many companies choose private cloud over public cloud because private cloud is an easier way
+(or the only way) to meet their regulatory compliance requirements. Others choose private
+cloud because their workloads deal with confidential documents, intellectual property,
+personally identifiable information (PII), medical records, financial data, or other sensitive data.
+
+By building private cloud architecture according to cloud native principles, an organization gives
+itself the flexibility to easily move workloads to public cloud or run them within a hybrid
+cloud (see below) environment whenever they’re ready.
+Hybrid cloud
+Hybrid cloud is just what it sounds like—a combination of public and private cloud
+environments. Specifically, and ideally, a hybrid cloud connects an organization&#39;s private cloud
+services and public clouds into a single, flexible infrastructure for running the organization’s
+applications and workloads.
+The goal of hybrid cloud is to establish a mix of public and private cloud resources—and with a
+level of orchestration between them—that gives an organization the flexibility to choose the
+optimal cloud for each application or workload and to move workloads freely between the two
+clouds as circumstances change. This enables the organization to meet its technical and
+business objectives more effectively and cost-efficiently than it could with public or private
+cloud alone.
+Multicloud and hybrid multicloud
+Multicloud is the use of two or more clouds from two or more different cloud providers. Having
+a multicloud environment can be as simple using email SaaS from one vendor and image editing
+SaaS from another. But when enterprises talk about multicloud, they&#39;re typically talking about
+using multiple cloud services—including SaaS, PaaS, and IaaS services—from two or more of the
+leading public cloud providers.
+Hybrid multicloud is the use of two or more public clouds together with a private cloud
+environment.
+Organizations choose multicloud to avoid vendor lock-in, to have more services to choose from,
+and to access to more innovation. But the more clouds you use—each with its own set of
+management tools, data transmission rates, and security protocols—the more difficult it can be
+to manage your environment. Multicloud management platforms provide visibility across
+multiple provider clouds through a central dashboard, where development teams can see their
+projects and deployments, operations teams can keep an eye on clusters and nodes, and the
+cybersecurity staff can monitor for threats.
+
+Cloud security
+Traditionally, security concerns have been the primary obstacle for organizations
+considering cloud services, particularly public cloud services. In response to demand, however,
+the security offered by cloud service providers is steadily outstripping on-premises security
+solutions.
+Maintaining cloud security demands different procedures and employee skillsets than in legacy
+IT environments. Some cloud security best practices include the following:
+ Shared responsibility for security: Generally, the cloud provider is responsible for
+securing cloud infrastructure and the customer is responsible for protecting its data
+within the cloud—but it&#39;s also important to clearly define data ownership between
+private and public third parties.
+ Data encryption: Data should be encrypted while at rest, in transit, and in use.
+Customers need to maintain full control over security keys and hardware security
+module.
+ User identity and access management: Customer and IT teams need full understanding
+of and visibility into network, device, application, and data access.
+ Collaborative management: Proper communication and clear, understandable
+processes between IT, operations, and security teams will ensure seamless cloud
+integrations that are secure and sustainable.
+ Security and compliance monitoring: This begins with understanding all regulatory
+compliance standards applicable to your industry and setting up active monitoring of all
+connected systems and cloud-based services to maintain visibility of all data exchanges
+between public, private, and hybrid cloud environments.
+
+Cloud use cases
+With 25% of organizations planning to move all their applications to cloud within the next year,
+it would seem that cloud computing use cases are limitless. But even for companies not
+planning a wholesale shift to the cloud, certain initiatives and cloud computing are a match
+made in IT heaven.
+Disaster recovery and business continuity have always been a natural for cloud because cloud
+provides cost-effective redundancy to protect data against system failures and the physical
+distance required to recover data and applications in the event of a local outage or disaster. All
+of the major public cloud providers offer Disaster-Recovery-as-a-Service (DRaaS).
+Anything that involves storing and processing huge volumes of data at high speeds—and
+requires more storage and computing capacity than most organizations can or want to
+purchase and deploy on-premises—is a target for cloud computing. Examples include:
+ Big data analytics
+ Internet of Things (IoT)
+ Artificial intelligence—particularly machine learning and deep learning applications
+For development teams adopting Agile or DevOps (or  DevSecOps ) to streamline development,
+cloud offers the on-demand end-user self-service that keeps operations tasks—such as spinning
+up development and test servers—from becoming development bottlenecks. 
+
+7.4.2. The Advantages of cloud computing?
+Flexibility
+Users can scale services to fit their needs, customize applications and access cloud services
+from anywhere with an internet connection.
+ Scalability: Cloud infrastructure scales on demand to support fluctuating workloads.
+ Storage options: Users can choose public, private, or hybrid storage offerings,
+depending on security needs and other considerations.
+ Control choices: Organizations can determine their level of control with as-a-service
+options. These include Software-as-a-Service (SaaS), Platform-as-a-Service (PaaS),
+and Infrastructure-as-a-Service (IaaS).
+ Tool selection: Users can select from a menu of prebuilt tools and features to build a
+solution that fits their specific needs.
+ Security features: Virtual private cloud, encryption, and API keys help keep data secure.
+
+Efficiency
+Enterprise users can get applications to market quickly, without worrying about underlying
+infrastructure costs or maintenance.
+ Accessibility: Cloud-based applications and data are accessible from virtually any
+internet-connected device.
+ Speed to market: Developing in the cloud enables users to get their applications to
+market quickly.
+ Data security: Hardware failures do not result in data loss because of networked
+backups.
+ Savings on equipment: Cloud computing uses remote resources, saving organizations
+the cost of servers and other equipment.
+ Pay structure: A “utility” pay structure means users only pay for the resources they use.
+
+Strategic value
+ Streamlined work: Cloud service providers (CSPs) manage underlying infrastructure,
+enabling organizations to focus on application development and other priorities.
+ Regular updates: Service providers regularly update offerings to give users the most up-
+to-date technology.
+ Collaboration: Worldwide access means teams can collaborate from widespread
+locations.
+ Competitive edge: Organizations can move more nimbly than competitors who must
+devote IT resources to managing infrastructure.
+
+7.4.3. What is quantum computing?
+Quantum computing is a rapidly-emerging technology that harnesses the laws of
+quantum mechanics to solve problems too complex for classical computers. 
+Today, IBM Quantum makes real quantum hardware -- a tool scientists only began to imagine
+three decades ago -- available to hundreds of thousands of developers. Our engineers deliver
+ever-more-powerful superconducting quantum processors at regular intervals, alongside crucial
+advances in software and quantum-classical orchestration. This work drives toward the
+quantum computing speed and capacity necessary to change the world. 
+These machines are very different from the classical computers that have been around for
+more than half a century. Here&#39;s a primer on this transformative technology.
+How do quantum computers work?
+Quantum computers are elegant machines, smaller and requiring less energy than
+supercomputers. An IBM Quantum processor is a wafer not much bigger than the one found in
+a laptop. And a quantum hardware system is about the size of a car, made up mostly of cooling
+systems to keep the superconducting processor at its ultra-cold operational temperature.
+A classical processor uses bits to perform its operations. A quantum computer uses qubits (CUE-
+bits) to run multidimensional quantum algorithms.
+
+Superfluids
+Your desktop computer likely uses a fan to get cold enough to work. Our quantum
+processors need to be very cold – about a hundredth of a degree above absolute zero. To
+achieve this, we use super-cooled superfluids to create superconductors.
+Superconductors
+At those ultra-low temperatures certain materials in our processors exhibit another
+important quantum mechanical effect: electrons move through them without resistance. This
+makes them &quot;superconductors.&quot; 
+When electrons pass through superconductors they match up, forming &quot;Cooper pairs.&quot;
+These pairs can carry a charge across barriers, or insulators, through a process known as
+quantum tunneling. Two superconductors placed on either side of an insulator form a
+Josephson junction.
+Control
+Our quantum computers use Josephson junctions as superconducting qubits. By firing
+microwave photons at these qubits, we can control their behavior and get them to hold,
+change, and read out individual units of quantum information.
+Superposition
+A qubit itself isn&#39;t very useful. But it can perform an important trick: placing the
+quantum information it holds into a state of superposition, which represents a combination of
+all possible configurations of the qubit. Groups of qubits in superposition can create complex,
+multidimensional computational spaces. Complex problems can be represented in new ways in
+these spaces.
+Entanglement
+Entanglement is a quantum mechanical effect that correlates the behavior of two
+separate things. When two qubits are entangled, changes to one qubit directly impact the
+other. Quantum algorithms leverage those relationships to find solutions to complex problems.
+
+Why do we need quantum computers?
+For some problems, supercomputers aren’t that super.
+When scientists and engineers encounter difficult problems, they turn to supercomputers.
+These are very large classical computers, often with thousands of classical CPU and GPU cores.
+However, even supercomputers struggle to solve certain kinds of problems.
+If a supercomputer gets stumped, that&#39;s probably because the big classical machine was asked
+to solve a problem with a high degree of complexity. When classical computers fail, it&#39;s often
+due to complexity
+Complex problems are problems with lots of variables interacting in complicated ways.
+Modeling the behavior of individual atoms in a molecule is a complex problem, because of all
+the different electrons interacting with one another. Sorting out the ideal routes for a few
+hundred tankers in a global shipping network is complex too.
+
+7.4.4. Advantages of quantum computing
+Quantum computing has several potential advantages over classical computing. Here are some
+of the most significant advantages:
+1. Faster computation: Quantum computers can solve certain types of problems much
+faster than classical computers. This is because quantum computers use qubits, which
+can exist in multiple states at once, allowing them to perform many calculations
+simultaneously. Some problems that would take billions of years for classical computers
+to solve can be solved in seconds or minutes on a quantum computer.
+2. Improved encryption: Quantum computers can break many of the encryption methods
+currently used in digital communication. However, they can also be used to develop
+new, more secure methods of encryption that would be nearly impossible to break
+using classical computing methods.
+3. Better optimization: Many real-world problems involve finding the best solution among
+a large number of possibilities. Quantum computers can perform optimization tasks
+much more efficiently than classical computers, allowing for more accurate and
+effective solutions to complex problems.
+4. More accurate simulations: Quantum computers can simulate quantum systems much
+more accurately than classical computers. This is because classical computers must
+simulate each possible state of a system one at a time, while quantum computers can
+simulate all possible states simultaneously.
+
+5. Improved machine learning: Quantum computing can be used to improve machine
+learning algorithms, allowing for more accurate predictions and faster data analysis.
+Overall, quantum computing has the potential to revolutionize many industries and fields, from
+finance and healthcare to climate science and cryptography.
+
+7.5 Autonomic Computing
+Autonomic computing is a computer’s ability to manage itself automatically through adaptive
+technologies that further computing capabilities and cut down on the time required by
+computer professionals to resolve system difficulties and other maintenance such as software
+updates.
+The move toward autonomic computing is driven by a desire for cost reduction and the need to
+lift the obstacles presented by computer system complexities to allow for more advanced
+computing technology.
+The autonomic computing initiative (ACI), which was developed by IBM, demonstrates and
+advocates networking computer systems that do not involve a lot of human intervention
+other than defining input rules. The ACI is derived from the autonomic nervous system of the
+human body.
+
+IBM has defined the four areas of automatic computing:
+
+ Self-Configuration.
+ Self-Healing (error correction).
+ Self-Optimization (automatic resource control for optimal functioning).
+ Self-Protection (identification and protection from attacks in a proactive manner).
+Characteristics that every autonomic computing system should have include automation,
+adaptivity and awareness.
+AC was designed to mimic the human body’s nervous system-in that the autonomic nervous
+system acts and reacts to stimuli independent of the individual’s conscious input-an autonomic
+computing environment functions with a high level of artificial intelligence while remaining
+invisible to the users. Just as the human body acts and responds without the individual
+controlling functions (e.g., internal temperature rises and falls, breathing rate fluctuates, glands
+secrete hormones in response to stimulus), the autonomic computing environment operates
+organically in response to the input it collects.
+
+IBM has set forth eight conditions that define an autonomic system:
+
+1. The system must know itself in terms of what resources it has access to, what its
+capabilities and limitations are and how and why it is connected to other systems.
+2. The system must be able to automatically configure and reconfigure itself depending on
+the changing computing environment.
+3. The system must be able to optimize its performance to ensure the most efficient
+computing process.
+4. The system must be able to work around encountered problems by either repairing
+itself or routing functions away from the trouble.
+5. The system must detect, identify and protect itself against various types of attacks to
+maintain overall system security and integrity.
+6. The system must be able to adapt to its environment as it changes, interacting with
+neighboring systems and establishing communication protocols.
+7. The system must rely on open standards and cannot exist in a proprietary environment.
+8. The system must anticipate the demand on its resources while keeping transparent to
+users.
+Autonomic computing is one of the building blocks of pervasive computing, an anticipated
+future computing model in which tiny – even invisible – computers will be all around us,
+communicating through increasingly interconnected networks leading to the concept of The
+Internet of Everything (IoE). Many industry leaders are researching various components of
+autonomic computing.
+
+7.5.1. Characteristics of Autonomic Computing
+Autonomic computing is a type of computing system that is designed to be self-managing and
+self-healing. Here are some of the key characteristics of autonomic computing:
+1. Self-configuration: Autonomic computing systems are designed to automatically
+configure themselves based on their environment and the tasks they are expected to
+perform. This includes automatically setting up hardware and software components, as
+well as optimizing system performance.
+2. Self-optimization: Autonomic computing systems are able to monitor their own
+performance and adjust their operations to improve efficiency and achieve better
+results. This includes adjusting resource allocation, load balancing, and other system
+parameters to optimize system performance.
+
+3. Self-protection: Autonomic computing systems are designed to automatically detect and
+respond to security threats and other potential problems. This includes monitoring
+system logs, detecting anomalies, and taking corrective actions to prevent or mitigate
+security breaches and other types of failures.
+4. Self-healing: Autonomic computing systems are able to detect and recover from system
+failures without human intervention. This includes automatically identifying and
+isolating faulty components, restoring service to healthy components, and restarting
+failed processes or services.
+Overall, the characteristics of autonomic computing are designed to make computing systems
+more resilient, reliable, and efficient, while reducing the need for manual intervention and
+management.
+7.6. Computer Vision
+7.6.1. History
+Scientists and engineers have been trying to develop ways for machines to see and
+understand visual data for about 60 years. Experimentation began in 1959 when
+neurophysiologists showed a cat an array of images, attempting to correlate a response in its
+brain. They discovered that it responded first to hard edges or lines, and scientifically, this
+meant that image processing starts with simple shapes like straight edges.
+At about the same time, the first computer image scanning technology was developed, enabling
+computers to digitize and acquire images. Another milestone was reached in 1963 when
+computers were able to transform two-dimensional images into three-dimensional forms. In
+the 1960s, AI emerged as an academic field of study, and it also marked the beginning of the AI
+quest to solve the human vision problem.
+1974 saw the introduction of optical character recognition (OCR) technology, which could
+recognize text printed in any font or typeface.   Similarly, intelligent character recognition (ICR)
+could decipher hand-written text using neural networks. Since then, OCR and ICR have found
+their way into document and invoice processing, vehicle plate recognition, mobile payments,
+machine translation and other common applications.
+In 1982, neuroscientist David Marr established that vision works hierarchically and introduced
+algorithms for machines to detect edges, corners, curves and similar basic shapes.
+Concurrently, computer scientist Kunihiko Fukushima developed a network of cells that could
+recognize patterns. The network, called the Neocognitron, included convolutional layers in a
+neural network.
+By 2000, the focus of study was on object recognition, and by 2001, the first real-time face
+recognition applications appeared. Standardization of how visual data sets are tagged and
+
+annotated emerged through the 2000s. In 2010, the ImageNet data set became available. It
+contained millions of tagged images across a thousand object classes and provides a foundation
+for CNNs and deep learning models used today. In 2012, a team from the University of Toronto
+entered a CNN into an image recognition contest. The model, called AlexNet, significantly
+reduced the error rate for image recognition. After this breakthrough, error rates have fallen to
+just a few percent.
+7.6.2. Definition
+Computer vision is a field of artificial intelligence (AI) that enables computers and
+systems to derive meaningful information from digital images, videos and other visual inputs —
+and take actions or make recommendations based on that information. If AI enables computers
+to think, computer vision enables them to see, observe and understand.
+Computer vision works much the same as human vision, except humans have a head start.
+Human sight has the advantage of lifetimes of context to train how to tell objects apart, how far
+away they are, whether they are moving and whether there is something wrong in an image.
+Computer vision trains machines to perform these functions, but it has to do it in much less
+time with cameras, data and algorithms rather than retinas, optic nerves and a visual cortex.
+Because a system trained to inspect products or watch a production asset can analyze
+thousands of products or processes a minute, noticing imperceptible defects or issues, it can
+quickly surpass human capabilities.
+Computer vision is used in industries ranging from energy and utilities to manufacturing and
+automotive – and the market is continuing to grow. It is expected to reach USD 48.6 billion by
+2022.
+7.6.3. How computer Vision Work
+Computer vision needs lots of data. It runs analyses of data over and over until it
+discerns distinctions and ultimately recognize images. For example, to train a computer to
+recognize automobile tires, it needs to be fed vast quantities of tire images and tire-related
+items to learn the differences and recognize a tire, especially one with no defects.
+Two essential technologies are used to accomplish this: a type of machine learning called deep
+learning and a convolutional neural network (CNN).
+Machine learning uses algorithmic models that enable a computer to teach itself about the
+context of visual data. If enough data is fed through the model, the computer will “look” at the
+data and teach itself to tell one image from another. Algorithms enable the machine to learn by
+itself, rather than someone programming it to recognize an image.
+
+A CNN helps a machine learning or deep learning model “look” by breaking images down into
+pixels that are given tags or labels. It uses the labels to perform convolutions (a mathematical
+operation on two functions to produce a third function) and makes predictions about what it is
+“seeing.” The neural network runs convolutions and checks the accuracy of its predictions in a
+series of iterations until the predictions start to come true. It is then recognizing or seeing
+images in a way similar to humans.
+Much like a human making out an image at a distance, a CNN first discerns hard edges and
+simple shapes, then fills in information as it runs iterations of its predictions. A CNN is used to
+understand single images. A recurrent neural network (RNN) is used in a similar way for video
+applications to help computers understand how pictures in a series of frames are related to one
+another.
+
+7.6.4. Applications of Computer Vision
+There is a lot of research being done in the computer vision field, but it’s not just research.
+Real-world applications demonstrate how important computer vision is to endeavors in
+business, entertainment, transportation, healthcare and everyday life. A key driver for the
+growth of these applications is the flood of visual information flowing from smartphones,
+security systems, traffic cameras and other visually instrumented devices. This data could play a
+major role in operations across industries, but today goes unused. The information creates a
+test bed to train computer vision applications and a launchpad for them to become part of a
+range of human activities:
+ IBM used computer vision to create My Moments for the 2018 Masters golf
+tournament. IBM Watson watched hundreds of hours of Masters footage and could
+identify the sights (and sounds) of significant shots. It curated these key moments and
+delivered them to fans as personalized highlight reels.
+ Google Translate lets users point a smartphone camera at a sign in another language
+and almost immediately obtain a translation of the sign in their preferred language.
+ The development of self-driving vehicles relies on computer vision to make sense of the
+visual input from a car’s cameras and other sensors. It’s essential to identify other cars,
+traffic signs, lane markers, pedestrians, bicycles and all of the other visual information
+encountered on the road.
+ IBM is applying computer vision technology with partners like Verizon to bring
+intelligent AI to the edge, and to help automotive manufacturers identify quality defects
+before a vehicle leaves the factory.
+
+Computer vision examples
+
+Many organizations don’t have the resources to fund computer vision labs and create
+deep learning models and neural networks. They may also lack the computing power required
+to process huge sets of visual data. Companies such as IBM are helping by offering computer
+vision software development services. These services deliver pre-built learning models available
+from the cloud — and also ease demand on computing resources. Users connect to the services
+through an application programming interface (API) and use them to develop computer vision
+applications.
+IBM has also introduced a computer vision platform that addresses both developmental and
+computing resource concerns. IBM Maximo Visual Inspection includes tools that enable subject
+matter experts to label, train and deploy deep learning vision models — without coding or deep
+learning expertise. The vision models can be deployed in local data centers, the cloud and edge
+devices.
+While it’s getting easier to obtain resources to develop computer vision applications, an
+important question to answer early on is: What exactly will these applications do?
+Understanding and defining specific computer vision tasks can focus and validate projects and
+applications and make it easier to get started.
+Here are a few examples of established computer vision tasks:
+ Image classification sees an image and can classify it (a dog, an apple, a person’s face).
+More precisely, it is able to accurately predict that a given image belongs to a certain
+class. For example, a social media company might want to use it to automatically
+identify and segregate objectionable images uploaded by users.
+ Object detection can use image classification to identify a certain class of image and
+then detect and tabulate their appearance in an image or video. Examples include
+detecting damages on an assembly line or identifying machinery that requires
+maintenance.
+ Object tracking follows or tracks an object once it is detected. This task is often
+executed with images captured in sequence or real-time video feeds. Autonomous
+vehicles, for example, need to not only classify and detect objects such as pedestrians,
+other cars and road infrastructure, they need to track them in motion to avoid collisions
+and obey traffic laws.
+ Content-based image retrieval uses computer vision to browse, search and retrieve
+images from large data stores, based on the content of the images rather than metadata
+tags associated with them. This task can incorporate automatic image annotation that
+replaces manual image tagging. These tasks can be used for digital asset
+management systems and can increase the accuracy of search and retrieval.
+
+References
+https://www.ibm.com/topics/quantum-computing
+https://www.ibm.com/ph-en/topics/computer-vision
+https://www.ibm.com/topics/cloud-computing-benefits
+
+                     </pre>
+                </div>
+
+
+           
+
+
+            <!-- Footer Start -->
+            <div class="container-fluid pt-4 px-4">
+                <div class="bg-secondary rounded-top p-4">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 text-center text-sm-start">
+                             <a href="#">Abel Balate</a>, BSIT-3B. 
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- Footer End -->
+        </div>
+        <!-- Content End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/chart/chart.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
