@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .tablenahu{
+    background-color: white;
+    width: 600px;
+    height: 500px;
+    border: 2px solid rgb(87, 35, 209);
+    position: relative;
+}
+img{
+    border-radius: 50%;
+    width: 150px;
+    position: absolute;
+    border: 2px solid rgb(87, 35, 209);
+    top: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.ahua{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+.tablecontents{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.table2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+h2{
+    color:  rgb(87, 35, 209);;
+}
+li{
+    list-style-type: none;
+}
+.table3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+i{
+    font-size: 30px;
+}
+.fa-facebook{
+    color: #0F91F3;
+
+}
+.fa-envelope{
+    color: orange;
+}
